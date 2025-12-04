@@ -12,6 +12,7 @@ authors:
     orcid: ""
 repository-code: 'https://github.com/emrecirak/dp-copulagan'
 url: 'https://github.com/emrecirak/dp-copulagan'
+doi: 'doi: "10.5281/zenodo.17816035"'
 abstract: >-
   DP-CopulaGAN is a Python package for generating differentially private
   synthetic tabular data using Gaussian copula transformations and
