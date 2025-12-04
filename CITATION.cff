@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 type: software
 title: 'DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks'
-version: 0.2.3
-date-released: 2024-12-02
+version: 0.1.0
+date-released: 2025-12-02
 authors:
   - family-names: Çırak
     given-names: Emre
@@ -35,6 +35,6 @@ preferred-citation:
     - family-names: Çırak
       given-names: Emre
       email: emre.cirak@tuik.gov.tr
-      affiliation: "Department of Statistics, Gazi University; Turkish Statistical Institute (TÜİK)"
+      affiliation: "Department of Statistics, Gazi University; Turkish Statistical Institute (TURKSTAT)"
   title: 'DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks'
   year: 2024
