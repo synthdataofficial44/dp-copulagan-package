@@ -17,6 +17,7 @@ affiliations:
  - name: Turkish Statistical Institute (TURKSTAT), Türkiye
    index: 2
 date: 2 December 2025
+doi: 10.5281/zenodo.17816035
 bibliography: paper.bib
 ---
 
