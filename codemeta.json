@@ -1,0 +1,86 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "DP-CopulaGAN",
+  "description": "A Python package for generating differentially private synthetic tabular data using Gaussian copula transformations and Wasserstein Generative Adversarial Networks with gradient penalty (WGAN-GP). Combines copula-based dependency modeling with formal differential privacy guarantees via DP-SGD.",
+  "identifier": "dp-copulagan",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Emre",
+      "familyName": "Çırak",
+      "email": "emre.cirak@tuik.gov.tr",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Department of Statistics, Gazi University; Turkish Statistical Institute (TÜİK)"
+      }
+    }
+  ],
+  "citation": "Çırak, E. (2024). DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks. https://github.com/emrecirak/dp-copulagan",
+  "codeRepository": "https://github.com/synthdataofficial44/dp-copulagan-package",
+  "dateCreated": "2024-12-02",
+  "dateModified": "2024-12-02",
+  "datePublished": "2024-12-02",
+  "downloadUrl": "https://github.com/synthdataofficial44/dp-copulagan-package/releases",
+  "issueTracker": "https://github.com/synthdataofficial44/dp-copulagan-package/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "0.2.3",
+  "programmingLanguage": [
+    "Python"
+  ],
+  "runtimePlatform": [
+    "Python 3.8",
+    "Python 3.9",
+    "Python 3.10",
+    "Python 3.11"
+  ],
+  "operatingSystem": [
+    "Linux",
+    "macOS",
+    "Windows"
+  ],
+  "softwareRequirements": [
+    "TensorFlow >= 2.12.0",
+    "NumPy >= 1.21.0",
+    "pandas >= 1.3.0",
+    "scikit-learn >= 1.0.0",
+    "SciPy >= 1.7.0",
+    "XGBoost >= 1.5.0"
+  ],
+  "keywords": [
+    "differential privacy",
+    "synthetic data",
+    "copula",
+    "generative adversarial networks",
+    "GAN",
+    "WGAN-GP",
+    "DP-SGD",
+    "official statistics",
+    "privacy-preserving machine learning",
+    "tabular data",
+    "data privacy",
+    "machine learning"
+  ],
+  "applicationCategory": "Scientific Software",
+  "developmentStatus": "active",
+  "funder": {
+    "@type": "Organization",
+    "name": "Turkish Statistical Institute (TURKSTAT)"
+  },
+  "readme": "https://github.com/synthdataofficial44/dp-copulagan-package/blob/main/README.md",
+  "softwareHelp": "https://github.com/synthdataofficial44/dp-copulagan-package/blob/main/README.md",
+  "contIntegration": "https://github.com/synthdataofficial44/dp-copulagan-package/actions",
+  "issueTracker": "https://github.com/synthdataofficial44/dp-copulagan-package/issues",
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks",
+    "author": [
+      {
+        "@type": "Person",
+        "givenName": "Emre",
+        "familyName": "Çırak"
+      }
+    ],
+    "datePublished": "2025"
+  }
+}

@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: 'DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks'
+version: 0.2.3
+date-released: 2024-12-02
+authors:
+  - family-names: Çırak
+    given-names: Emre
+    email: emre.cirak@tuik.gov.tr
+    affiliation: "Department of Statistics, Gazi University; Turkish Statistical Institute (TÜİK)"
+    orcid: ""
+repository-code: 'https://github.com/emrecirak/dp-copulagan'
+url: 'https://github.com/emrecirak/dp-copulagan'
+abstract: >-
+  DP-CopulaGAN is a Python package for generating differentially private
+  synthetic tabular data using Gaussian copula transformations and
+  Wasserstein Generative Adversarial Networks with gradient penalty (WGAN-GP).
+  The package combines copula-based dependency modeling with formal
+  differential privacy guarantees via DP-SGD, making it suitable for
+  privacy-preserving data release in official statistics, healthcare,
+  and machine learning research.
+keywords:
+  - differential privacy
+  - synthetic data
+  - copula
+  - generative adversarial networks
+  - official statistics
+  - privacy-preserving machine learning
+  - tabular data
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Çırak
+      given-names: Emre
+      email: emre.cirak@tuik.gov.tr
+      affiliation: "Department of Statistics, Gazi University; Turkish Statistical Institute (TÜİK)"
+  title: 'DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks'
+  year: 2024

@@ -1,0 +1,51 @@
+{
+  "title": "DP-CopulaGAN: A Differentially Private Synthetic Data Generator Using Copula and Generative Adversarial Networks",
+  "description": "A Python package for generating differentially private synthetic tabular data using Gaussian copula transformations and Wasserstein Generative Adversarial Networks with gradient penalty (WGAN-GP). The package combines copula-based dependency modeling with formal differential privacy guarantees via DP-SGD, making it suitable for privacy-preserving data release in official statistics, healthcare, and machine learning research.",
+  "creators": [
+    {
+      "name": "Çırak, Emre",
+      "affiliation": "Department of Statistics, Gazi University; Turkish Statistical Institute (TURKSTAT)",
+      "orcid": ""
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "differential privacy",
+    "synthetic data",
+    "copula",
+    "generative adversarial networks",
+    "GAN",
+    "WGAN-GP",
+    "DP-SGD",
+    "official statistics",
+    "privacy-preserving machine learning",
+    "tabular data",
+    "data privacy"
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/synthdataofficial44/dp-copulagan",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Turkish Statistical Institute (TURKSTAT)",
+      "type": "affiliation"
+    }
+  ],
+  "references": [
+    "Abadi, M., et al. (2016). Deep learning with differential privacy. CCS 2016.",
+    "Gulrajani, I., et al. (2017). Improved training of Wasserstein GANs. NeurIPS 2017.",
+    "Nelsen, R. B. (2006). An introduction to copulas. Springer.",
+    "Xu, L., et al. (2019). Modeling tabular data using conditional GAN. NeurIPS 2019."
+  ],
+  "grants": [
+    {
+      "id": "Turkish Statistical Institute (TURKSTAT)"
+    }
+  ]
+}
